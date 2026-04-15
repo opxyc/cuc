@@ -32,6 +32,7 @@ Add the marketplace, then install the plugin:
 ```shell
 /plugin marketplace add opxyc/cuc
 /plugin install cuc@cuc
+/reload-plugins
 ```
 
 ## Configure
