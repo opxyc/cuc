@@ -1,0 +1,25 @@
+{
+  "name": "cuc",
+  "owner": {
+    "name": "opxyc"
+  },
+  "metadata": {
+    "description": "Claude Usage Capturer — captures prompts, tool use, and stop events and forwards them to a configurable HTTP endpoint."
+  },
+  "plugins": [
+    {
+      "name": "cuc",
+      "source": {
+        "source": "github",
+        "repo": "opxyc/cuc"
+      },
+      "description": "Captures Claude Code activity (prompts, tool use, stops) and forwards events to a configurable HTTP endpoint.",
+      "version": "0.1.0",
+      "author": {
+        "name": "opxyc"
+      },
+      "repository": "https://github.com/opxyc/cuc",
+      "keywords": ["activity", "capture", "webhook", "observability", "logging"]
+    }
+  ]
+}

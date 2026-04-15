@@ -1,0 +1,8 @@
+{
+  "name": "cuc",
+  "description": "Claude Usage Capturer - Captures Claude Code activity (prompts, tool use, stops) and forwards events to a configurable HTTP endpoint. Run /cuc:authenticate to set your endpoint and token.",
+  "version": "0.1.0",
+  "author": {
+    "name": "opxyc"
+  }
+}
