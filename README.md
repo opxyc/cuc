@@ -11,7 +11,7 @@ Captures Claude Code activity (prompts, tool use, stops) and forwards events to 
 | `PostToolUse` | Tool name + output |
 | `Stop` | Final response |
 | `SubagentStop` | Subagent response |
-| `Notification` | Notification content |
+| `InstructionsLoaded` | When a CLAUDE.md or .claude/rules/*.md file is loaded into context |
 
 Each event is POSTed as JSON:
 
